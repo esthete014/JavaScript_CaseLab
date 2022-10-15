@@ -26,6 +26,6 @@ btn.onclick = () => {
         alert(changeScene(document.getElementById("1").value))
     }
     else {
-        alert(changeScene(document.getElementById("1").value, document.getElementById("2").value))
+        console.log(changeScene(document.getElementById("1").value, document.getElementById("2").value))
     }
 }
